@@ -1,0 +1,24 @@
+# Compiled output
+bin/
+*.class
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Environment / secrets
+.env
+*.env
+
+# JDBC driver jar (download separately — see README)
+lib/mysql-connector*.jar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
