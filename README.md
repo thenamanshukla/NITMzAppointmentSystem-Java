@@ -1,18 +1,18 @@
 # NIT Mizoram Administration Appointment System
 
-> **A Java Swing desktop application** built during my 2nd semester at NIT Mizoram — where Object-Oriented Programming introduced me to the world of Java, and a chance encounter with Swing/AWT sparked an idea.
+> **A Java Swing desktop application** built during my 2nd semester at NIT Mizoram, where Object-Oriented Programming introduced me to the world of Java, and a chance encounter with Swing/AWT sparked an idea to solve a real campus problem: unorganized and unstructured appointment visits to the administration building.
 
 ---
 
 ## The Story Behind This Project
 
-During my early days at NIT Mizoram, visiting the administration building was always a frustrating experience — long queues, no clear system, students waiting without knowing when (or if) they'd be seen. There was no structure, no tracking, no confirmation of any kind.
+During my early days at NIT Mizoram, visiting the administration building was always a frustrating experience, long queues, no clear system, students waiting without knowing when (or if) they'd be seen. There was no structure, no tracking, no confirmation of any kind.
 
-That same semester, we were introduced to **Object-Oriented Programming** in Java. When I discovered **Java Swing and AWT**, I was fascinated — the idea that you could build real, interactive desktop applications with Java felt like a superpower. So I decided to build something that actually solved a problem I was living every day.
+That same semester, we were introduced to **Object-Oriented Programming** in Java. When I discovered **Java Swing and AWT**, I was fascinated, the idea that you could build real, interactive desktop applications with Java felt like a superpower. So I decided to build something that actually solved a problem I was living every day.
 
-This project was built almost entirely during that 2nd semester. The core logic, UI, slip generation with unique IDs — all of it was done back then. The only piece missing was a real database. Years later, I came back and integrated **MySQL** to make it fully persistent.
+This project was built almost entirely during that 2nd semester. The core logic, UI, slip generation with unique IDs, all of it was done back then. The only piece missing was a real database. Months later, I came back and integrated **MySQL** to make it fully persistent.
 
-Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along with the date and authority — making each slip traceable and one-of-a-kind.
+Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along with the date and authority- making each slip traceable and one-of-a-kind.
 
 ---
 
@@ -20,7 +20,7 @@ Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along 
 
 - **Student login** — book appointments with any administrative authority
 - **Authority login** — view booked appointments, manage available slots
-- **MySQL-backed** — all data persists across sessions
+- **MySQL-backend** — all data persists across sessions
 - **Appointment slip** — generates a unique TXT slip saved to Desktop
 - **Unique Slip ID** — every slip gets a UUID-based ID (e.g. `APT-3F8A92BC`) making it distinct and traceable
 - **Role-based access** — separate dashboards for students and authorities
@@ -30,43 +30,43 @@ Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along 
 
 ## Screenshots
 
-> _Login Screen — NIT Mizoram Administration Appointment System with the actual Administrative Block in the background_
+> _Login Screen: NIT Mizoram Administration Appointment System with the actual Administrative Block in the background_
 
 ![Login Screen](screenshots/login.png)
 
 ---
 
-> _Student Dashboard — Welcome screen after student login_
+> _Student Dashboard: Welcome screen after student login_
 
 ![Student Dashboard](screenshots/student_dashboard.png)
 
 ---
 
-> _Book Appointment — Select authority and available time slot_
+> _Book Appointment: Select authority and available time slot_
 
 ![Book Appointment](screenshots/book_appointment.png)
 
 ---
 
-> _Authority Dropdown — All supported administrative authorities_
+> _Authority Dropdown: All supported administrative authorities_
 
 ![Authority Dropdown](screenshots/book_appointment_dropdown.png)
 
 ---
 
-> _Appointment Slip — Unique slip ID generated (APT-AFB4F879) with date and authority details_
+> _Appointment Slip: Unique slip ID generated (APT-AFB4F879) with date and authority details_
 
 ![Appointment Slip](screenshots/appointment_slip.png)
 
 ---
 
-> _Authority Dashboard — Director's dashboard with View and Edit options_
+> _Authority Dashboard: Director's dashboard with View and Edit options_
 
 ![Authority Dashboard](screenshots/authority_dashboard.png)
 
 ---
 
-> _View Appointments — All booked appointments visible to the authority_
+> _View Appointments: All booked appointments visible to the authority_
 
 ![View Appointments](screenshots/view_appointments.png)
 
@@ -251,7 +251,7 @@ Every confirmed appointment generates a slip ID in the format:
 APT-3F8A92BC
 ```
 
-This is derived from a `UUID.randomUUID()` — truncated to 8 characters and uppercased. Combined with the date and authority name on the slip, it makes every appointment uniquely identifiable and verifiable.
+This is derived from a `UUID.randomUUID()`  truncated to 8 characters and uppercased. Combined with the date and authority name on the slip, it makes every appointment uniquely identifiable and verifiable.
 
 ---
 
@@ -268,4 +268,4 @@ This is derived from a `UUID.randomUUID()` — truncated to 8 characters and upp
 
 MIT License — see [LICENSE](LICENSE) for details.
 
-This is a personal project developed by **Naman Shukla** during his **2nd Semester, B.Tech** at **NIT Mizoram (National Institute of Technology Mizoram)** — self-initiated, born out of a real campus problem faced by the developer himself.
+This is a personal project developed by **Naman Shukla** during his **2nd Semester, B.Tech** at **NIT Mizoram (National Institute of Technology Mizoram)** self-initiated, born out of a real campus problem faced by the developer himself.
