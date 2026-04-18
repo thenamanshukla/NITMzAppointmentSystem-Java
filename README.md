@@ -266,6 +266,6 @@ This is derived from a `UUID.randomUUID()`  truncated to 8 characters and upperc
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
 This is a personal project developed by **Naman Shukla** during his **2nd Semester, B.Tech** at **NIT Mizoram (National Institute of Technology Mizoram)** self-initiated, born out of a real campus problem faced by the developer himself.
