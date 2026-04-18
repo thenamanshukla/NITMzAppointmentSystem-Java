@@ -50,7 +50,7 @@ Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along 
 
 > _Authority Dropdown: All supported administrative authorities_
 
-![Authority Dropdown](screenshots/book_appointment_dropdown.png)
+![Authority Dropdown](screenshots/authority_dropdown.png)
 
 ---
 
@@ -68,7 +68,7 @@ Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along 
 
 > _View Appointments: All booked appointments visible to the authority_
 
-![View Appointments](screenshots/view_appointments.png)
+![View Appointments](screenshots/view_appointment.png)
 
 ---
 
