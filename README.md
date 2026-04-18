@@ -204,7 +204,7 @@ java -cp "bin;lib/*" App
 
 ## Default Login Credentials
 
-> ⚠️ Change these passwords in the database before deploying.
+>  Change these passwords in the database before deploying.
 
 | Role | Username | Password |
 |---|---|---|
