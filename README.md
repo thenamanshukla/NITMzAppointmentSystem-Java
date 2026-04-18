@@ -72,7 +72,7 @@ Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along 
 
 ---
 
-> _Edit Slots — Colour-coded slot management (green = available, red = booked)_
+> _Edit Slots: Colour-coded slot management (green = available, red = booked)_
 
 ![Edit Slots](screenshots/edit_slots.png)
 
