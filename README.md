@@ -18,13 +18,13 @@ Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along 
 
 ## Features
 
-- **Student login** — book appointments with any administrative authority
-- **Authority login** — view booked appointments, manage available slots
-- **MySQL-backend** — all data persists across sessions
-- **Appointment slip** — generates a unique TXT slip saved to Desktop
-- **Unique Slip ID** — every slip gets a UUID-based ID (e.g. `APT-3F8A92BC`) making it distinct and traceable
-- **Role-based access** — separate dashboards for students and authorities
-- **Auto slot seeding** — if no slots exist for an authority, the system seeds 7 days × 4 time slots automatically
+- **Student login** - book appointments with any administrative authority
+- **Authority login** - view booked appointments, manage available slots
+- **MySQL-backend** - all data persists across sessions
+- **Appointment slip** - generates a unique TXT slip saved to Desktop
+- **Unique Slip ID** - every slip gets a UUID-based ID (e.g. `APT-3F8A92BC`) making it distinct and traceable
+- **Role-based access** - separate dashboards for students and authorities
+- **Auto slot seeding** - if no slots exist for an authority, the system seeds 7 days × 4 time slots automatically
 
 ---
 
