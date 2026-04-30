@@ -78,6 +78,12 @@ Every appointment slip generated carries a **unique ID** (`APT-XXXXXXXX`) along 
 
 ---
 
+> *Appointment Slip Window: System-generated slip with unique ID, enrollment number, authority and slot details*
+
+![Appointment Slip Generated](screenshots/appointment_slip_generated.png)
+
+---
+
 ## Supported Authorities
 
 | Username | Dashboard Role |
